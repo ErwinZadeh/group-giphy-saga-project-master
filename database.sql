@@ -21,7 +21,7 @@ CREATE TABLE "gifs" (
 );
 
 INSERT INTO "gifs" ("description", "url", "category_id")
-VALUES ('another test', 'http://google.com', 1), ('test', 'google.com', 4);
+VALUES ('photographer stand GIF', 'https://media1.giphy.com/media/13EaEZ9UiY1CH6/giphy.gif', 1), ('time bath GIF', 'https://media3.giphy.com/media/F9CXkOZws5LTq/giphy.gif', 4);
 
 -- join the tables
 SELECT  "gifs"."id", "gifs"."description", "gifs"."url", "gifs"."category_id", "category"."category_name"
